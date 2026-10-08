@@ -2,7 +2,7 @@
 """
 meu_traceroute.py - Traceroute com ICMP Echo Request e TTL crescente.
 
-Funcionamento (como nos slides):
+Funcionamento:
   1. Envia sondas com TTL = 1, 2, 3, ...
   2. O n-ésimo roteador do caminho decrementa o TTL para 0, descarta o
      datagrama e devolve ao remetente um ICMP "Time Exceeded" (tipo 11).

@@ -1,7 +1,7 @@
 """
 icmp_lib.py - Funções compartilhadas por meu_ping.py e meu_traceroute.py
 
-Conceitos dos slides (Camada de Rede, ICMP):
+Conceitos:
   - ICMP é usado por hospedeiros e roteadores para comunicar informações de
     nível de rede (relato de erros, "eco" de ping).
   - Mensagem ICMP = tipo + código + checksum + (cabeçalho específico) + dados.
